@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/produce.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="script.js"></script>
+  <h1>R&ampD Backyard Market</h1>
+  </head>
+      <hr>
+  <body>
+    <table>
+      <td>
+        <tr>
+		<div id = "cart">
+		</div>
+        <div id="totals">
+            Subtotal    $<span id="subtotal">0.00</span><br />
+            Tax         $<span id="tax">0.00</span><br />
+            Total       $<span id="total">0.00</span><br />
+        </div>
+      <div class="fruit">
+      <div class="apple">
+        <div>
+        <h3>Apple</h3><h3>Price: $0.98</h3>
+          <img src="Images/apple.jpg" width="90%"> 
+        </div>
+        <div class="applebutton">
+          <button id="appleButton" value="Submit" >Add To Cart</button>
+        </div>
+      </div>
+
+    <div class="orange">
+      <div>
+      <h3>Oranges</h3><h3>Price: $0.89</h3>
+        <img src="Images/oranges.jpg" width="90%">
+        </div>
+          <div class ="orangesbutton">
+            <button id="orangeButton" value="Submit" >Add To Cart</button>
+          </div>
+        </div>
+
+      <div class="banana">
+      <div>
+      <h3>Bananas</h3><h3>Price: $0.49</h3>
+        </div>
+        <img src="Images/banana.jpg" width="90%">
+          <div class ="bananasbutton">
+            <button id="bananaButton" value="Submit" onclick="addBanana()">Add To Cart</button>
+          </div>
+        </div>
+
+      <div class="strawberries">
+      <div>
+      <h3>Strawberries</h3><h3>Price: $0.25</h3>
+        <img src="Images/strawberries.jpg" width="90%">
+        </div>
+          <div class ="strawberriesbutton">
+            <button id="strawberryButton" value="Submit" onclick="addStrawberries()">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color:  #000000;
+}
+
+.fruit, #cart {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fruit {
+  background-image: url("Images/produce.jpg");
+  min-height: 100%;
+}
+
+#cart {
+  background-image: url("Images/background.jpg");
+  min-height: 400px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color:  #ffffff;
+}
+</style>
+
+
+</body>
+</html>

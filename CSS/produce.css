@@ -1,0 +1,101 @@
+.parrallax
+{
+	background-image:url("Images/background.jpg");
+
+	height:100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1
+{
+	background-color: #aaff80;
+  	text-align:center;
+  	color:#cc6600;
+}
+h3
+{
+	color:#cc6600;
+}
+#appleButton
+{
+	transition-duration: 0.4s;
+	background-color: #ffc34d;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+#appleButton:hover
+{
+	background-color: white;
+	color:#ffc34d;
+	
+
+}
+#bananaButton
+{
+	transition-duration: 0.4s;
+	background-color: #ffc34d;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+#bananaButton:hover
+{
+	background-color: white;
+	color:#ffc34d;
+}
+#strawberryButton
+{
+	transition-duration: 0.4s;
+	background-color: #ffc34d;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+#strawberryButton:hover
+{
+	background-color: white;
+	color:#ffc34d;
+}
+#orangeButton
+{
+	transition-duration: 0.4s;
+	background-color: #ffc34d;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+#orangeButton:hover
+{
+	background-color: white;
+	color:#ffc34d;
+}
+.apple, .banana, .strawberries, .orange
+{
+	width: 25%;
+	float: left;
+}
+#totals, #cart
+{
+	background: #ffeedd;
+	text-align: right;
+}
